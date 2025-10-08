@@ -2,9 +2,10 @@
   "name": "js-backend-2",
   "version": "1.0.0",
   "description": "professional level js backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "express",
@@ -14,5 +15,8 @@
     "creep"
   ],
   "author": "Bhavya Sharma",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
